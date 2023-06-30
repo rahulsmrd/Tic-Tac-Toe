@@ -1,0 +1,52 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.container{
+    background-color: rgb(208, 208, 208);
+    width: fit-content;
+    padding: 2% 3% 1% 2%;
+    border-radius: 5px;
+    margin: auto;
+}
+h1{
+    font-size: 80px;
+}
+#restart{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(13,110,253);
+    color: white;
+    font-weight: 100px;
+}
+#restart:hover{
+    background-color: rgb(37, 124, 254);
+}
+.table{
+    width: fit-content;
+    margin: auto;
+    margin-top: 0.em;
+}
+table,td{
+    border: 5px solid black;
+}
+td{
+    width: 150px;
+    height: 150px;
+}
+#value{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    border: 0;
+}
+#player{ 
+    width: fit-content;
+    margin: -0.5em 2em 0em 8em;
+    display: inline-block;
+    font-size: 50px;
+    z-index: 0;
+}
